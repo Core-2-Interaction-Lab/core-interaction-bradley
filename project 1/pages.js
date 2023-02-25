@@ -1,10 +1,16 @@
-
+const words = document.querySelector('.words');
+const wordsHTML = words.innerHTML;
 // get each element that holds the message
-const elements = Array.from(document.querySelector('.words').children);
+const elements = Array.from(words.children);
 // how many milliseconds between typing each word?
-const increment = 50;
+let increment = 70;
 // track increment
 let counter = 0; 
+
+
+words.addEventListener('click', () => {
+  words.innerHTML = wordsHTML;
+})
 
 // iterate through each tag within the .words parent
 elements.forEach(el => {
@@ -26,21 +32,6 @@ elements.forEach(el => {
       el.innerHTML += letter;
     // counter mulitpled by increment gives us the delay
     }, counter * increment);
-  })
-})
+  });
+});
 
-// Add an abortable event listener to table
-const controller = new AbortController();
-const el = document.getElementById("clickable");
-el.addEventListener("click", modifyText, { signal: controller.signal } );
-
-// Function to change the content of t2
-function modifyText() {
-    const t2 = document.getElementById("t2");
-    if (t2.firstChild.nodeValue === "three") {
-      t2.firstChild.nodeValue = "two";
-    } else {
-      t2.firstChild.nodeValue = "three";
-      controller.abort(); // remove listener after value reaches "three"
-    }
-  }
