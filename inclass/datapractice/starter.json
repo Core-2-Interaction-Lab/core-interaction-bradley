@@ -1,0 +1,16 @@
+{
+    {
+        "year": 1975,
+		"name": "Goofy Golfing",
+        "color": "Yellow",
+		"description": "Goofy woo!",
+		"image": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/18-1750-viva-magenta-cotton-swatch-card-1669979036.jpg"
+    }
+    {
+        "year": 1975,
+		"name": "Mickey Put-Put",
+        "color": "Red",
+		"description": "Mickey is so cute in his golfing uniform. ",
+		"image": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/18-1750-viva-magenta-cotton-swatch-card-1669979036.jpg"
+    }
+}
