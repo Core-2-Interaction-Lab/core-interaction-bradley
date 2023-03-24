@@ -24,8 +24,8 @@ const renderItems = (collection) => {
 			<p><time>${item.category}</time></p>
 			<p><em>${item.year}</em></p>
 			<a href="${item.url}">
-				<p>${item.desc}</p>
-				</a>
+				<div>${item.desc}</div>
+			</a>
 			`
 		listItem.insertAdjacentHTML('beforeend', itemDetails) // Which can we then insert
 
@@ -45,5 +45,5 @@ fetch('assets/mycollection.json')
 	.then(response => response.json())
 	.then(collection => {
 		// And passes the data to the function, above!
-		renderItems(collection.reverse()) // In reverse order
+		renderItems(collection) // In reverse order
 	})
