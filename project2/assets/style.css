@@ -1,0 +1,46 @@
+/* Just to make the demo easier to work with. */
+
+:root {
+	--spacing: 1em;
+}
+
+body {
+	font-family: serif;
+	padding: var(--spacing);
+	padding-bottom: 33vh;
+	color: white;
+	background-color: black;
+}
+
+#title {
+	position:fixed
+}
+
+aside { margin-bottom: calc(4 * var(--spacing)); }
+
+h1 { 
+	font-size: 900%; 
+	letter-spacing:-10px;
+}
+
+h2 { 
+	font-size: 200%;
+	font-weight: bold; }
+
+a { color: rgb(237, 22, 22); }
+
+em { font-style: italic }
+
+ul {
+	display: grid;
+	gap: calc(4 * var(--spacing));
+	margin-top: calc(4 * var(--spacing));
+	color:blueviolet
+}
+
+li {
+	display: grid;
+	gap: var(--spacing);
+}
+
+/* .faded { opacity: 0.333 } */

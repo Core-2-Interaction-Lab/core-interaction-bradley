@@ -1,0 +1,587 @@
+[
+  {
+    "stickernumber": 1,
+    "title": "Mickey Put-Put",
+    "category": "Disney",
+    "color": "Red",
+    "year": 1975,
+    "image": "assets/stickers/sticker1.png",
+    "desc": "Mickey is so adorable in his golfing outfit. Hole in one for sure."
+  },
+  {
+    "stickernumber": 2,
+    "title": "Mickey Ball",
+    "category": "Disney",
+    "color": "Red",
+    "year": 1975,
+    "image": "assets/stickers/sticker2.png",
+    "desc": "Mickey looks like he's scared of the ball."
+  },
+  {
+    "stickernumber": 3,
+    "title": "Goofy Golfing",
+    "category": "Disney",
+    "color": "Yellow",
+    "year": 1975,
+    "image": "assets/stickers/sticker3.png",
+    "desc": "Oh no! I feel like Goofy definitley just knocked a window out with his golf ball"
+  },
+  {
+    "stickernumber": 4,
+    "title": "Dwarf Dance",
+    "category": "Disney",
+    "color": "MISC",
+    "year": 1971,
+    "image": "assets/stickers/sticker4.png",
+    "desc": "This art style is so beautiful. This scene feels so lively."
+  },
+  {
+    "stickernumber": 5,
+    "title": "Nature's Princess",
+    "category": "Disney",
+    "color": "MISC",
+    "year": 1971,
+    "image": "assets/stickers/sticker5.png",
+    "desc": "I wish I could talk to animals like this."
+  },
+  {
+    "stickernumber": 6,
+    "title": "Keep on Bikin'",
+    "category": "Bumper Sticker",
+    "color": "Yellow",
+    "year": 1976,
+    "image": "assets/stickers/sticker6.png",
+    "desc": "Maybe I should start actually biking in the city. The bike riders scare me here."
+  },
+  {
+    "stickernumber": 7,
+    "title": "Don't Shake Me Up",
+    "category": "Bumper Sticker",
+    "color": "Orange",
+    "year": 1976,
+    "image": "assets/stickers/sticker7.png",
+    "desc": "I feel like this is kind of self-explanatory."
+  },
+  {
+    "stickernumber": 8,
+    "title": "Don't Tread On Me",
+    "category": "Bumper Sticker",
+    "color": "Green",
+    "year": 1976,
+    "image": "assets/stickers/sticker8.png",
+    "desc": "I LOVE the design of this. So cute,"
+  },
+  {
+    "stickernumber": 9,
+    "title": "You're Too Close",
+    "category": "Bumper Sticker",
+    "color": "Pink",
+    "year": 1976,
+    "image": "assets/stickers/sticker9.png",
+    "desc": "I'd definitley put this on my car. The hot pink is so hot."
+  },
+  {
+    "stickernumber": 10,
+    "title": "Zodiac",
+    "category": "MISC",
+    "color": "MISC",
+    "year": 1979,
+    "image": "assets/stickers/sticker10.png",
+    "desc": "I'm mad I don't have the Scorpio counterpart for this."
+  },
+  {
+    "stickernumber": 11,
+    "title": "Janice",
+    "category": "MISC",
+    "color": "Orange",
+    "year": 1982,
+    "image": "assets/stickers/sticker11.png",
+    "desc": "These are custom name stickers my Mom made. They're so pretty :,)"
+  },
+  {
+    "stickernumber": 12,
+    "title": "I Save Water",
+    "category": "Activism",
+    "color": "Blue",
+    "year": 1981,
+    "image": "assets/stickers/sticker12.png",
+    "desc": "I love this one hahaha."
+  },
+  {
+    "stickernumber": 13,
+    "title": "Snoopy Valentine",
+    "category": "Cartoon",
+    "color": "Red",
+    "year": 1979,
+    "image": "assets/stickers/sticker13.png",
+    "desc": "The cutest Valentine ever."
+  },
+  {
+    "stickernumber": 14,
+    "title": "S.M.MEW",
+    "category": "Disney",
+    "color": "Red",
+    "year": 1976,
+    "image": "assets/stickers/sticker14.png",
+    "desc": "I have no idea which Disney movie this is referencing."
+  },
+  {
+    "stickernumber": 15,
+    "title": "HO HI HO State",
+    "category": "Disney",
+    "color": "Orange",
+    "year": 1976,
+    "image": "assets/stickers/sticker15.png",
+    "desc": "Reading these outloud are so funny."
+  },
+  {
+    "stickernumber": 16,
+    "title": "M.I.TEA",
+    "category": "Disney",
+    "color": "Red",
+    "year": 1976,
+    "image": "assets/stickers/sticker16.png",
+    "desc": "One thing about me is I LOVE Alice in Wonderland."
+  },
+  {
+    "stickernumber": 17,
+    "title": "RICH MAN",
+    "category": "Disney",
+    "color": "Red",
+    "year": 1976,
+    "image": "assets/stickers/sticker17.png",
+    "desc": "If I was rich girl, na na na na na na na!"
+  },
+  {
+    "stickernumber": 18,
+    "title": "STAMPFORD",
+    "category": "Disney",
+    "color": "Orange",
+    "year": 1976,
+    "image": "assets/stickers/sticker18.png",
+    "desc": "This one is super cute."
+  },
+  {
+    "stickernumber": 19,
+    "title": "MINNIE SODA",
+    "category": "Disney",
+    "color": "Red",
+    "year": 1976,
+    "image": "assets/stickers/sticker19.png",
+    "desc": "SO ADORABLE. Minnie is so cute."
+  },
+  {
+    "stickernumber": 20,
+    "title": "PURR DUE",
+    "category": "Disney",
+    "color": "Black",
+    "year": 1976,
+    "image": "assets/stickers/sticker20.png",
+    "desc": "One thing about me is I LOVE the Cheshire Cat."
+  },
+  {
+    "stickernumber": 21,
+    "title": "ALA BAMBI",
+    "category": "Disney",
+    "color": "Red",
+    "year": 1976,
+    "image": "assets/stickers/sticker20.png",
+    "desc": "Ala-bambi. Ha ha ha."
+  },
+  {
+    "stickernumber": 22,
+    "title": "GEORG A TACK",
+    "category": "Disney",
+    "color": "Yellow",
+    "year": 1976,
+    "image": "assets/stickers/sticker22.png",
+    "desc": "I have no idea where this is supposed to be referencing."
+  },
+  {
+    "stickernumber": 23,
+    "title": "Have a Happy Day",
+    "category": "MISC",
+    "color": "Yellow",
+    "year": 1973,
+    "image": "assets/stickers/sticker23.png",
+    "desc": "What they said."
+  },
+  {
+    "stickernumber": 24,
+    "title": "Tweety Easter",
+    "category": "Cartoon",
+    "color": "Yellow",
+    "year": 1974,
+    "image": "assets/stickers/sticker24.png",
+    "desc": "Tweety on an easter egg. Yes."
+  },
+  {
+    "stickernumber": 25,
+    "title": "KISS",
+    "category": "MISC",
+    "color": "Red",
+    "year": 1973,
+    "image": "assets/stickers/sticker25.png",
+    "desc": "MWAH! mwah! MWAHHHH!"
+  },
+  {
+    "stickernumber": 26,
+    "title": "Love You",
+    "category": "Religion",
+    "color": "Blue",
+    "year": 1973,
+    "image": "assets/stickers/sticker26.png",
+    "desc": "I'm glad someone does."
+  },
+  {
+    "stickernumber": 27,
+    "title": "CHUMPS",
+    "category": "Wacky",
+    "color": "MISC",
+    "year": 1974,
+    "image": "assets/stickers/sticker27.png",
+    "desc": "Would definitley purchase! Why is his nose green?"
+  },
+  {
+    "stickernumber": 28,
+    "title": "ZOOM",
+    "category": "Cartoon",
+    "color": "Green",
+    "year": 1973,
+    "image": "assets/stickers/sticker28.png",
+    "desc": "I LOVEEEEE these. I wish I could find more info."
+  },
+  {
+    "stickernumber": 29,
+    "title": "Guitar Cat",
+    "category": "Cartoon",
+    "color": "Pink",
+    "year": 1972,
+    "image": "assets/stickers/sticker29.png",
+    "desc": "WHO IS THIS CAT? I can't find any info on him!"
+  },
+  {
+    "stickernumber": 30,
+    "title": "LOVE",
+    "category": "MISC",
+    "color": "MISC",
+    "year": 1979,
+    "image": "assets/stickers/sticker30.png",
+    "desc": "All of these little affirmations and then there's feet?"
+  },
+  {
+    "stickernumber": 31,
+    "title": "Pretty",
+    "category": "MISC",
+    "color": "MISC",
+    "year": 1977,
+    "image": "assets/stickers/sticker31.png",
+    "desc": "I would put the pleading emoji hear because that's how I feel looking at this sticker."
+  },
+  {
+    "stickernumber": 32,
+    "title": "Snoopy Sheet",
+    "category": "Cartoon",
+    "color": "MISC",
+    "year": 1974,
+    "image": "assets/stickers/sticker32.png",
+    "desc": "I'm so curious what the one missing sticker looked like."
+  },
+  {
+    "stickernumber": 33,
+    "title": "Jesus Sheet 1",
+    "category": "Religion",
+    "color": "Red",
+    "year": 1971,
+    "image": "assets/stickers/sticker33.png",
+    "desc": "The little face makes me laugh he's so silly."
+  },
+  {
+    "stickernumber": 34,
+    "title": "Jesus Sheet 2",
+    "category": "Religion",
+    "color": "Orange",
+    "year": 1971,
+    "image": "assets/stickers/sticker34.png",
+    "desc": "I'm smiling!!!"
+  },
+  {
+    "stickernumber": 35,
+    "title": "Jesus Sheet 3",
+    "category": "Religion",
+    "color": "Yellow",
+    "year": 1971,
+    "image": "assets/stickers/sticker35.png",
+    "desc": "This one hurts to read."
+  },
+  {
+    "stickernumber": 36,
+    "title": "Easter Chicken",
+    "category": "Cartoon",
+    "color": "Orange",
+    "year": 1974,
+    "image": "assets/stickers/sticker36.png",
+    "desc": "Ok Chickens!!!"
+  },
+  {
+    "stickernumber": 37,
+    "title": "Sun Bonnet's",
+    "category": "Cartoon",
+    "color": "Blue",
+    "year": 1977,
+    "image": "assets/stickers/sticker37.png",
+    "desc": "These are so cute, I want to run through a field with them."
+  },
+  {
+    "stickernumber": 38,
+    "title": "Safety Rules",
+    "category": "Cartoon",
+    "color": "Pink",
+    "year": 1971,
+    "image": "assets/stickers/sticker38.png",
+    "desc": "You heard them!! Whatever you want cute little elephant!"
+  },
+  {
+    "stickernumber": 39,
+    "title": "Zip The Dog",
+    "category": "MISC",
+    "color": "Yellow",
+    "year": 1977,
+    "image": "assets/stickers/sticker39.png",
+    "desc": "This dog looks so much like my friend's dog."
+  },
+  {
+    "stickernumber": 40,
+    "title": "POWs",
+    "category": "Activism",
+    "color": "Black",
+    "year": 1976,
+    "image": "assets/stickers/sticker40.png",
+    "desc": "This one makes me sad. But a cool design."
+  },
+  {
+    "stickernumber": 41,
+    "title": "MIAs",
+    "category": "Activism",
+    "color": "Red",
+    "year": 1976,
+    "image": "assets/stickers/sticker41.png",
+    "desc": "I felt bad because I was confused what POW's meant with the last sticker until I saw this."
+  },
+  {
+    "stickernumber": 42,
+    "title": "Reader's Disgust",
+    "category": "Wacky",
+    "color": "Blue",
+    "year": 1977,
+    "image": "assets/stickers/sticker42.png",
+    "desc": "This feels like a silly kid's horror book from the 80's."
+  },
+  {
+    "stickernumber": 43,
+    "title": "Business Freak",
+    "category": "Wacky",
+    "color": "Yellow",
+    "year": 1977,
+    "image": "assets/stickers/sticker43.png",
+    "desc": "I feel like this sometimes."
+  },
+  {
+    "stickernumber": 44,
+    "title": "Butterfly Bows 1",
+    "category": "MISC",
+    "color": "Blue",
+    "year": 1973,
+    "image": "assets/stickers/sticker44.png",
+    "desc": "SO CUTE."
+  },
+  {
+    "stickernumber": 45,
+    "title": "Butterfly Bows 2",
+    "category": "MISC",
+    "color": "Pink",
+    "year": 1973,
+    "image": "assets/stickers/sticker45.png",
+    "desc": "SO CUTE. pt. 2"
+  },
+  {
+    "stickernumber": 46,
+    "title": "Road Rovers",
+    "category": "Cartoon",
+    "color": "Pink",
+    "year": 1972,
+    "image": "assets/stickers/sticker46.png",
+    "desc": "These make me hungry in a weird way, they feel like candy the color palette is so beautiful."
+  },
+  {
+    "stickernumber": 47,
+    "title": "?",
+    "category": "Cartoon",
+    "color": "MISC",
+    "year": 1974,
+    "image": "assets/stickers/sticker47.png",
+    "desc": "I'm so confused what this is supposed to be and I can't find information on it."
+  },
+  {
+    "stickernumber": 48,
+    "title": "Sicken of the Sea",
+    "category": "Wacky",
+    "color": "Green",
+    "year": 1974,
+    "image": "assets/stickers/sticker48.png",
+    "desc": "Me too girl."
+  },
+  {
+    "stickernumber": 49,
+    "title": "Triks",
+    "category": "Wacky",
+    "color": "Red",
+    "year": 1974,
+    "image": "assets/stickers/sticker49.png",
+    "desc": "I'm suddenly craving Trix cereal."
+  },
+  {
+    "stickernumber": 50,
+    "title": "The Hamburglar Patch",
+    "category": "Cartoon",
+    "color": "Yellow",
+    "year": 1975,
+    "image": "assets/stickers/sticker50.png",
+    "desc": "This McDonalds x Wizard of Oz crossover?"
+  },
+  {
+    "stickernumber": 51,
+    "title": "The American Eagle",
+    "category": "Cartoon",
+    "color": "Yellow",
+    "year": 1973,
+    "image": "assets/stickers/sticker51.png",
+    "desc": "Why do we have Woodstock doing some US propoganda?"
+  },
+  {
+    "stickernumber": 52,
+    "title": "Heartbreaker",
+    "category": "Disney",
+    "color": "Blue",
+    "year": 1976,
+    "image": "assets/stickers/sticker52.png",
+    "desc": "Crazy how much this one yellowed."
+  },
+  {
+    "stickernumber": 53,
+    "title": "If The Shoe Fits",
+    "category": "Disney",
+    "color": "Red",
+    "year": 1976,
+    "image": "assets/stickers/sticker53.png",
+    "desc": "This one is too cute. I love this phrase too."
+  },
+  {
+    "stickernumber": 54,
+    "title": "Who Else?",
+    "category": "Disney",
+    "color": "Pink",
+    "year": 1976,
+    "image": "assets/stickers/sticker54.png",
+    "desc": "I'm not sure what this is referencing but he seems very concerned."
+  },
+  {
+    "stickernumber": 55,
+    "title": "My Game",
+    "category": "Disney",
+    "color": "Yellow",
+    "year": 1976,
+    "image": "assets/stickers/sticker55.png",
+    "desc": "This is so goofy, I love it."
+  },
+  {
+    "stickernumber": 56,
+    "title": "HO-HI",
+    "category": "Disney",
+    "color": "Pink",
+    "year": 1976,
+    "image": "assets/stickers/sticker56.png",
+    "desc": "Dopey being cute."
+  },
+  {
+    "stickernumber": 1,
+    "title": "Drink More Milk",
+    "category": "Button",
+    "color": "Red",
+    "year": 1977,
+    "image": "assets/stickers/button1.png",
+    "desc": "Milk makes me sick."
+  },
+  {
+    "stickernumber": 2,
+    "title": "Peace",
+    "category": "Button",
+    "color": "Blue",
+    "year": 1977,
+    "image": "assets/stickers/button2.png",
+    "desc": "I'm still not sure what the words say so I'm weary about including this but I'm pretty it's standing in solidarity with the Jewish community."
+  },
+  {
+    "stickernumber": 3,
+    "title": "Im Cute!",
+    "category": "Button",
+    "color": "Green",
+    "year": 1977,
+    "image": "assets/stickers/button3.png",
+    "desc": "This really reasonated with me."
+  },
+  {
+    "stickernumber": 4,
+    "title": "Shower Shorter",
+    "category": "Button",
+    "color": "Orange",
+    "year": 1975,
+    "image": "assets/stickers/button4.png",
+    "desc": "This feels so 70's cartoon, feels accurate to the time."
+  },
+  {
+    "stickernumber": 5,
+    "title": "Smiley",
+    "category": "Button",
+    "color": "Yellow",
+    "year": 1977,
+    "image": "assets/stickers/button5.png",
+    "desc": "Yay! Smiley face! Seems like it's been through alot."
+  },
+  {
+    "stickernumber": 6,
+    "title": "I Save Water",
+    "category": "Button",
+    "color": "Blue",
+    "year": 1977,
+    "image": "assets/stickers/button6.png",
+    "desc": "This has me thinking about how much water I use. If I drink lots of water am I saving water?"
+  },
+  {
+    "stickernumber": 7,
+    "title": "Era '77",
+    "category": "Button",
+    "color": "Red",
+    "year": 1977,
+    "image": "assets/stickers/button7.png",
+    "desc": "I know this has to do with Women's right's."
+  },
+  {
+    "stickernumber": 8,
+    "title": "N.H.A.N.D",
+    "category": "Button",
+    "color": "Black",
+    "year": 1977,
+    "image": "assets/stickers/button8.png",
+    "desc": ":("
+  },
+  {
+    "stickernumber": 9,
+    "title": "Smile!",
+    "category": "Button",
+    "color": "Pink",
+    "year": 1977,
+    "image": "assets/stickers/button9.png",
+    "desc": ":)"
+  }
+]

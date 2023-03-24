@@ -44,10 +44,19 @@
     position: relative;
     background-color: blanchedalmond;
     left: 65%;
+    top: 230px;
+    width: 126px;
+    height: 180px;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    transform: rotate(-95deg);
+
+    /* position: relative;
+    background-color: blanchedalmond;
+    left: 65%;
     top:270px;
     border-radius: 49%;
     width: 150px;
-    height: 120px;
+    height: 120px; */
 }
 /* classes can't start w numbers */
 
@@ -55,11 +64,37 @@
     position: relative;
     background-color: black;
     left: 20%;
-    top:270px;
+    top: 285px;
     border-radius: 50%;
-    width: 110px;
-    height: 112px;
+    width: 120px;
+    height: 122px;
 }
+
+
+#tape {
+      font-size: 10em;
+      display: inline-block;
+      width: 0.48em;
+      box-sizing: content-box;
+      height: 0.5em;
+      border: 0.1em solid rgb(38, 0, 255);
+      position: relative;
+      left: 400px;
+      top: -130px;
+      border-radius: 0.35em;
+}
+
+#front {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background: rgb(202, 162, 82);
+    left: 38%;
+    top: 80px;
+    transform: skew(3deg, 4deg);
+}
+
+
 
 /* #magic8ball:after {
     contents: "8";

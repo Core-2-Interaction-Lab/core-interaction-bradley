@@ -15,7 +15,7 @@ const renderItems = (collection) => {
 		listItem.appendChild(itemTitle) // And add it to the `li`!
 
 		const itemImage = document.createElement('img') // And an image
-		itemImage.src = item.posterImage // Set the `src` attribute from the JSON
+		itemImage.src = item.image // Set the `src` attribute from the JSON
 		listItem.appendChild(itemImage) // And add that too
 
 
