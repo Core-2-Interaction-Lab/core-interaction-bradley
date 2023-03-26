@@ -38,6 +38,16 @@ const renderItems = (collection) => {
 	})
 }
 
+// add an event listener to add list items for when they are clicked
+// when it is clicked, look up the stickernumber in the json file
+// filter the json file for that exact number
+// create an html string with that number/item's properties (whatever you want to go in the lightbox)
+// insert it into the document
+const creatLightbox = listItem => {
+	// listItem is what you click on
+	// do stuff with listItem variable
+}
+
 
 
 // Fetch gets your JSON file…
@@ -45,5 +55,5 @@ fetch('assets/mycollection.json')
 	.then(response => response.json())
 	.then(collection => {
 		// And passes the data to the function, above!
-		renderItems(collection) // In reverse order
+		renderItems(collection) // or reverse for In reverse order
 	})

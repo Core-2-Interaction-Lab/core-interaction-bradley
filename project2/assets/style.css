@@ -1,5 +1,4 @@
 /* Just to make the demo easier to work with. */
-
 :root {
 	--spacing: 1em;
 }
@@ -7,49 +6,63 @@
 body {
 	font-family: Neue Kabel;
 	padding: var(--spacing);
-	padding-bottom: 33vh;
+	padding-bottom: 15vh;
 	color: rgb(255, 255, 255);
 	background-color: black;
 }
 
-#title {
+.title {
 	position:fixed
 }
 
-h1 { 
+#mom { 
 	font-size: 900%; 
 	letter-spacing:2px;
 	font-weight: bold;
+	color:rgb(0, 229, 255)
 }
 
-h2 { 
+#mem { 
 	font-size: 200%;
-	font-weight: normal; }
-
+	left: 20px;
+	font-weight: normal; 
+	letter-spacing: 14px;
+	color:rgb(0, 229, 255)
+}
 
 #pdesc {
 	font-size: 190%;
 	position: fixed;
 	bottom: 20px;
 	left: 20px;
-	color:blue
+	color:rgb(0, 229, 255)
 }
-aside { margin-bottom: calc(4 * var(--spacing)); }
 
-em { font-style: italic }
+h2 {
+	font-size: 150%;
+}
+
+aside { 
+	margin-bottom: calc(4 * var(--spacing));
+ }
+
+em { 
+	font-style: italic 
+}
 
 ul {
+	padding-top: 25vh;
 	display: grid;
 	gap: calc(2 * var(--spacing));
 	margin-top: calc(4 * var(--spacing));
-	grid-template-columns: repeat(5, 1fr);
-	grid-template-rows: repeat(40, 1fr);
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: repeat(auto);
 }
 
-/* li:first-child {
+li:first-child {
 	grid-column: 2 / span 2;
   grid-row: 1 / span 2;
-} */
+}
 
 li {
 	display: flex;
