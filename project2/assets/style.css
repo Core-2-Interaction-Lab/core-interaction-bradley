@@ -7,7 +7,7 @@ body {
 	font-family: Neue Kabel;
 	padding: var(--spacing);
 	padding-bottom: 15vh;
-	color: rgb(255, 255, 255);
+	color: rgb(62, 75, 255);
 	background-color: black;
 }
 
@@ -18,16 +18,16 @@ body {
 #mom { 
 	font-size: 900%; 
 	letter-spacing:2px;
+	line-height: .8;
 	font-weight: bold;
-	color:rgb(0, 229, 255)
+	color:rgb(255, 255, 255)
 }
 
 #mem { 
 	font-size: 200%;
-	left: 20px;
 	font-weight: normal; 
 	letter-spacing: 14px;
-	color:rgb(0, 229, 255)
+	color:rgb(255, 255, 255)
 }
 
 #pdesc {
@@ -35,7 +35,7 @@ body {
 	position: fixed;
 	bottom: 20px;
 	left: 20px;
-	color:rgb(0, 229, 255)
+	color:rgb(255, 255, 255)
 }
 
 h2 {
@@ -51,7 +51,7 @@ em {
 }
 
 ul {
-	padding-top: 25vh;
+	padding-top: 15vh;
 	display: grid;
 	gap: calc(2 * var(--spacing));
 	margin-top: calc(4 * var(--spacing));
@@ -61,13 +61,22 @@ ul {
 
 li:first-child {
 	grid-column: 2 / span 2;
-  grid-row: 1 / span 2;
+  grid-row: 3 / span 2;
 }
 
 li {
 	display: flex;
 	flex-direction: column;
 	gap: var(--spacing);
+}
+
+.words {
+	position: absolute;
+	bottom: 0;
+	filter: blur(5px);
+	transition: filter .5s;
+	font-weight: light 300;
+	text-align:left;
 }
 
 /* .faded { opacity: 0.333 } */
