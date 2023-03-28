@@ -96,7 +96,7 @@
     "color": "Orange",
     "year": 1982,
     "image": "assets/stickers/sticker11.png",
-    "desc": "These are custom name stickers my Mom made. They're so pretty :,)"
+    "desc": "These are custom name stickers my mom made. They're so pretty :,)"
   },
   {
     "stickernumber": 12,
@@ -276,7 +276,7 @@
     "color": "MISC",
     "year": 1977,
     "image": "assets/stickers/sticker31.png",
-    "desc": "I would put the pleading emoji hear because that's how I feel looking at this sticker."
+    "desc": "I would put the pleading emoji here because that's how I feel looking at this sticker."
   },
   {
     "stickernumber": 32,
@@ -504,7 +504,7 @@
     "desc": "Dopey being cute."
   },
   {
-    "stickernumber": 1,
+    "stickernumber": 57,
     "title": "Drink More Milk",
     "category": "Button",
     "color": "Red",
@@ -513,16 +513,16 @@
     "desc": "Milk makes me sick."
   },
   {
-    "stickernumber": 2,
+    "stickernumber": 58,
     "title": "Peace",
     "category": "Button",
     "color": "Blue",
     "year": 1977,
     "image": "assets/stickers/button2.png",
-    "desc": "I'm still not sure what the words say so I'm weary about including this but I'm pretty it's standing in solidarity with the Jewish community."
+    "desc": "I'm still not sure what the words say so I'm weary about including this but I'm pretty sure it's standing in solidarity with the Jewish community."
   },
   {
-    "stickernumber": 3,
+    "stickernumber": 59,
     "title": "Im Cute!",
     "category": "Button",
     "color": "Green",
@@ -531,7 +531,7 @@
     "desc": "This really reasonated with me."
   },
   {
-    "stickernumber": 4,
+    "stickernumber": 60,
     "title": "Shower Shorter",
     "category": "Button",
     "color": "Orange",
@@ -540,7 +540,7 @@
     "desc": "This feels so 70's cartoon, feels accurate to the time."
   },
   {
-    "stickernumber": 5,
+    "stickernumber": 61,
     "title": "Smiley",
     "category": "Button",
     "color": "Yellow",
@@ -549,7 +549,7 @@
     "desc": "Yay! Smiley face! Seems like it's been through alot."
   },
   {
-    "stickernumber": 6,
+    "stickernumber": 62,
     "title": "I Save Water",
     "category": "Button",
     "color": "Blue",
@@ -558,16 +558,16 @@
     "desc": "This has me thinking about how much water I use. If I drink lots of water am I saving water?"
   },
   {
-    "stickernumber": 7,
+    "stickernumber": 63,
     "title": "Era '77",
     "category": "Button",
     "color": "Red",
     "year": 1977,
     "image": "assets/stickers/button7.png",
-    "desc": "I know this has to do with Women's right's but I need to do more research."
+    "desc": "I'm happy my mom had this in her collection."
   },
   {
-    "stickernumber": 8,
+    "stickernumber": 64,
     "title": "N.H.A.N.D",
     "category": "Button",
     "color": "Black",
@@ -576,12 +576,39 @@
     "desc": ":("
   },
   {
-    "stickernumber": 9,
+    "stickernumber": 65,
     "title": "Smile!",
     "category": "Button",
     "color": "Pink",
     "year": 1977,
     "image": "assets/stickers/button9.png",
     "desc": ":)"
+  },
+  {
+    "stickernumber": 66,
+    "title": "",
+    "category": "",
+    "color": "",
+    "year": "",
+    "image": "",
+    "desc": ""
+  },
+  {
+    "stickernumber": 67,
+    "title": "",
+    "category": "",
+    "color": "",
+    "year": "",
+    "image": "",
+    "desc": ""
+  },
+  {
+    "stickernumber": 68,
+    "title": "",
+    "category": "",
+    "color": "",
+    "year": "",
+    "image": "",
+    "desc": ""
   }
 ]

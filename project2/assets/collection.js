@@ -22,11 +22,11 @@ const renderItems = (collection) => {
 		// This can get annoying, so we can use “template literals” instead
 		const itemDetails =
 			`
-			<p><time>${item.category}</time></p>
+			<div class="words"
+			<p><em>${item.category}<em></p>
 			<p><em>${item.year}</em></p>
-			<a href="${item.url}">
-				<div>${item.desc}</div>
-			</a>
+			<p><em>${item.desc}</em></p>
+			</div>
 			`
 		listItem.insertAdjacentHTML('beforeend', itemDetails) // Which can we then insert
 
