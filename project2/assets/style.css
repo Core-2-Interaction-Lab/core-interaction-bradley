@@ -40,6 +40,12 @@ body {
 
 h2 {
 	font-size: 150%;
+	transition: filter .5s;
+}
+
+li:hover h2 {
+	filter: blur(5px);
+	opacity: 0.8;
 }
 
 aside { 
@@ -75,8 +81,12 @@ li {
 	bottom: 0;
 	filter: blur(5px);
 	transition: filter .5s;
-	font-weight: light 300;
 	text-align:left;
+}
+
+li:hover .words {
+	filter: blur(0);
+	color:rgb(236, 138, 10);
 }
 
 /* .faded { opacity: 0.333 } */

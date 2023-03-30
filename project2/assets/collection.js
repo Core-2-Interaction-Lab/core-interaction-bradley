@@ -27,6 +27,7 @@ const renderItems = (collection) => {
 			<p><em>${item.year}</em></p>
 			<p><em>${item.desc}</em></p>
 			</div>
+			
 			`
 		listItem.insertAdjacentHTML('beforeend', itemDetails) // Which can we then insert
 

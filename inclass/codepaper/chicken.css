@@ -1,0 +1,12 @@
+body {
+    color: orange;
+    background-color: black;
+}
+
+h1 {
+    font-weight: italic;
+}
+
+h2 {
+    font-weight: bold;
+}
