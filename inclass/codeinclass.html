@@ -1,0 +1,62 @@
+codeinclass
+
+			<li id="${item.Id}" "class="list-item ${iem.class}">
+			<h2>${item.title}</h2>
+			<img src="${item.posterImage}" alt="View of ${item.title}"
+
+CSS 
+
+white-space:normal
+
+img {
+    max-width:100%;
+    max-height:100%;
+}
+
+wrap img in div in js
+back in CSS
+
+image-wrapper{
+    over-flow:hidden;
+}
+
+li{
+    width: 40vw;
+    height: calc(100vh-12vh)
+}
+
+li {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	gap: var(--spacing);
+}
+
+.words {
+display:none;
+position: absolute;
+left: 50%;
+top:50%;
+transform: translate (-50%, -50%);
+background-color: black;
+border: 30px;
+overflow: hidden;
+padding: 10px 15px;
+}
+
+.lightbox-visible.lightbox{
+	display: inline-block;
+}
+
+
+
+JAVASCRIPT
+
+const listElements = collectionList.querySelectorAll('li')
+listElements.forEach (element =>{
+	element.addEventListener('click'
+}
+
+		document.addEventListener('click', () => ()
+	})
+}

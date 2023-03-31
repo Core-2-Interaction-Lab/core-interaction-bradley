@@ -1,0 +1,56 @@
+img {
+    max-width: 50%
+}
+
+.svg-wrapper{
+
+}
+
+#logo{
+    position: absolute;
+    max-width: 50%
+}
+
+#name{
+    position: relative;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .item {
+    text-align: center;
+    animation: spinType 2s infinite;
+    animation-timing-function: ease-in-out;
+  }
+
+  @keyframes animationTitle {
+    0% { /* Your CSS for first keyframe goes here */
+    }
+    100% { /* Your CSS for the last keyframe goes here */
+    }
+    }
+
+
+      @keyframes spinType {
+        0% {
+            opacity:0;
+        }
+        10% {
+          transform: rotate(0.5turn);
+        }
+        60% {
+          transform: translate(50%, 25%);
+        }
+        90%{
+            transform: opacity(1);
+        }
+        100% {
+          transform: opacity(0);
+        }
+      }
