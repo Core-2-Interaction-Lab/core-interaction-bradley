@@ -4,7 +4,7 @@
 }
 
 body {
-	font-family: Neue Kabel;
+	font-family: neue-kabel;
 	padding: var(--spacing);
 	padding-bottom: 15vh;
 	color: rgb(255, 255, 255);
