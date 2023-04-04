@@ -54,7 +54,7 @@ em {
 	font-style: italic 
 }
 
-ul {
+/* ul {
 	padding-top: 15vh;
 	display: grid;
 	gap: calc(2 * var(--spacing));
@@ -71,7 +71,7 @@ li:first-child {
 li:fourth-child {
 	grid-column: 2 / span 2;
   grid-row: 3 / span 2;
-}
+} */
 
 li {
 	position: relative;
