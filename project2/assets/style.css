@@ -1,11 +1,11 @@
 :root {
-	--spacing: 1em;
+	--spacing: 2em;
 }
 
 body {
 	font-family: neue-kabel;
 	padding: var(--spacing);
-	padding-bottom: 15vh;
+	padding-bottom: 5vh;
 	color: rgb(247, 9, 9);
 	background-color: black;
 }
@@ -49,32 +49,13 @@ aside {
  }
 
 em { 
-	font-size: 20px;
+	font-size: 2vw;
 }
 
+/* doesn't work lol */
 #category {
 	font-style: italic;
 }
-
-/* ul {
-	padding-top: 15vh;
-	display: grid;
-	gap: calc(2 * var(--spacing));
-	margin-top: calc(4 * var(--spacing));
-	grid-template-columns: repeat(4, 1fr);
-	grid-template-rows: repeat(auto);
-}
-
-li:first-child {
-	grid-column: 2 / span 2;
-  grid-row: 3 / span 2;
-}
-
-li:fourth-child {
-	grid-column: 2 / span 2;
-  grid-row: 3 / span 2;
-} */
-
 
 /* sticker info */
 li {
@@ -89,14 +70,13 @@ img{
 }
 
 li:hover img{
-	opacity:0
+	opacity:0.3;
 }
 
 .words {
 	position: absolute;
 	font-size: 120%;
 	opacity: 0;
-	top: 0;
 	text-align: left;
 }
 
@@ -105,12 +85,10 @@ li:hover .words {
 	color:rgb(4, 255, 213);
 }
 
-/* .faded { opacity: 0.333 } */
-
 @media (max-width: 375px) {
 
 	#mom { 
-		/* font-size: 700%;
+		 font-size: 700%;
 		max-width: 100%;
 	}
 	
@@ -122,4 +100,4 @@ li:hover .words {
 	#pdesc {
 		font-size: 100%;
 	}
-} */
+}

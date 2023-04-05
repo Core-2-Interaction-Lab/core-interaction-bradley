@@ -1,81 +1,61 @@
 ul {
-	padding-top: 24vh;
+	padding-top: 19vh;
 	display: grid;
-	gap: calc(2 * var(--spacing));
-	/* margin-top: calc(2 * var(--spacing)); */
+	gap: calc(1 * var(--spacing));
+	margin-top: calc(2 * var(--spacing));
 	grid-template-columns: repeat(8, 1fr);
-	/* grid-template-rows: repeat(auto); */
+	grid-template-rows: repeat(auto);
 }
 
 /* not actual rows, but VISUAL rows lol */
 
 /* ROW 1 */
 
-/* goofy */
-li:nth-child(3) {
-grid-column: 1 / span 2;
-grid-row: 1 / span 2;
-}
-/* snow white 1 */
-li:nth-child(4) {
-grid-column: 3 / span 2;
-grid-row: 2.5 / span 2;
-}
-/* snow white 2 */
-li:nth-child(5) {
-grid-column: 3 / span 2;
-grid-row: 2 / span 2;
-}
-/* jesus 1 */
-li:nth-child(33) {
-grid-column: 5 / span 2;
-grid-row: 1 / span 2;
-}
-/* snoopy */
-li:nth-child(13) {
-grid-column: 7 / span 2;
-grid-row: 1 / span 2;
-}
-/* pink smiley button */
-li:nth-child(65) {
-grid-column: 3 / span 1;
-grid-row: 2 / span 2;
-}
-
-/* ROW 2 */
-
 /* dont tread on me */
 li:nth-child(8) {
 grid-column: 1 / span 2;
-grid-row: 3 / span 2;
+grid-row: 1 / span 2;
 }
 
 /* too close */
 li:nth-child(9) {
 grid-column: 7 / span 2;
-grid-row: 3 / span 2;
+grid-row: 1 / span 2;
 }
 /* sun bonnets */
 li:nth-child(37) {
 grid-column: 3 / span 4;
-grid-row: 3 / span 2;
+grid-row: 1 / span 2;
 }
 /* pows */
 li:nth-child(40) {
 grid-column: 3 / span 4;
-grid-row: 4 / span 2;
+grid-row: 2 / span 2;
+}
+
+/* ROW 2 */
+
+/* zodiac */
+li:nth-child(10) {
+grid-column: 1 / span 5;
+grid-row: 3 / span 2;
+}
+/* water */
+li:nth-child(12) {
+grid-column: 6 / span 3;
+grid-row: 3 / span 2;
 }
 
 /* ROW 3 */
 
 /* woodstock eagle */
 li:nth-child(51) {
-grid-column: 5 / span 4;
+grid-column: 3 / span 4;
 grid-row: 5 / span 3;
 }
 /* mickey 1 */
 li:nth-child(2) {
-grid-column: 3 / span 2;
+grid-column: 7 / span 2;
 grid-row: 5 / span 2;
 }
 /* mickey 2 */
@@ -85,17 +65,308 @@ grid-row: 5 / span 2;
 }
 
 /* ROW 4 */
+li:nth-child(20) {
+grid-column: 1 / span 2;
+grid-row: 7 / span 2;
+}
+li:nth-child(21) {
+grid-column: 3 / span 2;
+grid-row: 7 / span 2;
+}
+li:nth-child(22) {
+grid-column: 5 / span 2;
+grid-row: 7 / span 2;
+}
+li:nth-child(14) {
+grid-column: 7 / span 2;
+grid-row: 7 / span 2;
+}
 
+/* ROW 5 */
+li:nth-child(15) {
+grid-column: 1 / span 2;
+grid-row: 9/ span 2;
+}
+li:nth-child(16) {
+grid-column: 3 / span 2;
+grid-row: 9 / span 2;
+}
+li:nth-child(17) {
+grid-column: 5 / span 2;
+grid-row: 9 / span 2;
+}
+li:nth-child(19) {
+grid-column: 7 / span 2;
+grid-row: 9 / span 2;
+}
+
+/* ROW 6 */
 /* keep on bikin */
-li:nth-child(6) {
+li:nth-child(4) {
 grid-column: 1 / span 4;
-grid-row: 7 / span 3;
+grid-row: 11 / span 3;
 }
 /* dont shake me */
 li:nth-child(7) {
 grid-column: 5 / span 4;
-grid-row: 7 / span 3;
+grid-row: 11 / span 3;
 }
+
+/* ROW 7 */
+/* snow white */
+li:nth-child(6) {
+grid-column: 1 / span 4;
+grid-row: 14 / span 3;
+}
+/* snow white */
+li:nth-child(5) {
+grid-column: 5 / span 4;
+grid-row: 14 / span 3;
+}
+
+/* ROW 8 */
+/* safety rules */
+li:nth-child(33) {
+grid-column: 1 / span 2;
+grid-row: 17 / span 3;
+}
+/* jesus */
+li:nth-child(38) {
+grid-column: 3 / span 2;
+grid-row: 17 / span 3;
+}
+li:nth-child(34) {
+grid-column: 5 / span 2;
+grid-row: 17 / span 3;
+}
+/* jesus */
+li:nth-child(35) {
+grid-column: 7 / span 2;
+grid-row: 17 / span 3;
+}
+
+/* ROW 9 */
+/* buttons */
+li:nth-child(59) {
+grid-column: 1 / span 2;
+grid-row: 20 / span 3;
+}
+/* buttons */
+li:nth-child(58) {
+grid-column: 3 / span 2;
+grid-row: 20 / span 3;
+}
+li:nth-child(57) {
+grid-column: 5 / span 2;
+grid-row: 20 / span 3;
+}
+/* buttons */
+li:nth-child(60) {
+grid-column: 7 / span 2;
+grid-row: 20 / span 3;
+}
+
+
+/* ROW 9 */
+/* snoopy */
+li:nth-child(13) {
+grid-column: 1 / span 3;
+grid-row: 23 / span 3;
+}
+/* smile */
+li:nth-child(23) {
+grid-column: 4 / span 5;
+grid-row: 23 / span 3;
+}
+
+/* ROW 10 */
+/* dog */
+li:nth-child(39) {
+grid-column: 1 / span 4;
+grid-row: 26 / span 3;
+}
+/* pows */
+li:nth-child(41) {
+grid-column: 5 / span 4;
+grid-row: 26 / span 3;
+}
+
+/* ROW 10 */
+/* readers */
+li:nth-child(42) {
+grid-column: 1 / span 3;
+grid-row: 29 / span 3;
+}
+/* goofy */
+li:nth-child(3) {
+grid-column: 4 / span 2;
+grid-row: 29 / span 3;
+}
+/* freak */
+li:nth-child(43) {
+grid-column: 6 / span 3;
+grid-row: 29 / span 3;
+}
+
+/* ROW 11 */
+li:nth-child(52) {
+grid-column: 1 / span 2;
+grid-row: 32 / span 2;
+}
+li:nth-child(53) {
+grid-column: 3 / span 2;
+grid-row: 32 / span 2;
+}
+li:nth-child(54) {
+grid-column: 5 / span 2;
+grid-row: 32 / span 2;
+}
+li:nth-child(55) {
+grid-column: 7 / span 2;
+grid-row: 32 / span 2;
+}
+
+/* ROW 12 */
+/* hamburgalr */
+li:nth-child(50) {
+grid-column: 1 / span 4;
+grid-row: 34 / span 3;
+}
+/* snoopy */
+li:nth-child(32) {
+grid-column: 5 / span 4;
+grid-row: 34 / span 2;
+}
+/* tweety */
+li:nth-child(24) {
+grid-column: 5 / span 4;
+grid-row: 36 / span 1;
+}
+
+/* ROW 13 */
+/* love */
+li:nth-child(30) {
+grid-column: 1 / span 4;
+grid-row: 37 / span 1;
+}
+/* jan */
+li:nth-child(11) {
+grid-column: 5 / span 4;
+grid-row: 37 / span 2;
+}
+/* road rovers */
+li:nth-child(46) {
+grid-column: 1 / span 4;
+grid-row: 38 / span 2;
+}
+/* zoom */
+li:nth-child(28) {
+grid-column: 5 / span 4;
+grid-row: 39 / span 1;
+}
+
+/* ROW 14 */
+/* buttons */
+li:nth-child(61) {
+grid-column: 1 / span 2;
+grid-row: 40 / span 3;
+}
+/* buttons */
+li:nth-child(62) {
+grid-column: 3 / span 2;
+grid-row: 40 / span 3;
+}
+li:nth-child(65) {
+grid-column: 5 / span 2;
+grid-row: 40 / span 3;
+}
+/* buttons */
+li:nth-child(64) {
+grid-column: 7 / span 2;
+grid-row: 40 / span 3;
+}
+
+/* ROW 15 */
+/* butterfly bow */
+li:nth-child(44) {
+grid-column: span 3;
+grid-row: 43 / span 1;
+}
+/* cat */
+li:nth-child(29) {
+grid-column: span 3;
+grid-row: 43 / span 1;
+}
+/* easter chick */
+li:nth-child(36) {
+grid-column: span 2;
+grid-row: 43 / span 1;
+}
+
+/* ROW 16 */
+/* triks */
+li:nth-child(49) {
+grid-column: 1 / span 4;
+grid-row: 44 / span 2;
+}
+/* sick sea */
+li:nth-child(48) {
+grid-column: 5 / span 4;
+grid-row: 44 / span 1;
+}
+/* mwah */
+li:nth-child(25) {
+grid-column: 5 / span 4;
+grid-row: 45 / span 1;
+}
+
+/* ROW 17 */
+/* oh hi ho */
+li:nth-child(56) {
+grid-column: span 3;
+grid-row: 46 / span 1;
+}
+/* chumps */
+li:nth-child(27) {
+grid-column: span 5;
+grid-row: 46 / span 1;
+}
+
+/* ROW 18 */
+/* stamp */
+li:nth-child(18) {
+grid-column: span 3;
+grid-row: 47 / span 1;
+}
+/* rose */
+li:nth-child(31) {
+grid-column: span 2;
+grid-row: 47 / span 1;
+}
+/* ? */
+li:nth-child(47) {
+grid-column: span 3;
+grid-row: 47 / span 1;
+}
+
+
+/* ROW 19 */
+/* god */
+li:nth-child(26) {
+grid-column: 1 / span 5;
+grid-row: 48 / span 4;
+}
+/* butterfly */
+li:nth-child(45) {
+grid-column: 6 / span 3;
+grid-row: 51 / span 4;
+}
+/* 77 */
+li:nth-child(63) {
+grid-column: 1/ span 3;
+grid-row: 53 / span 2;
+}
+
 
 
 @media (max-width: 375px) {

@@ -1,6 +1,6 @@
 /* Just to make the demo easier to work with. */
 :root {
-	--spacing: 1em;
+	--spacing: 2em;
 }
 
 body {
@@ -72,5 +72,16 @@ max-width: 20%;
 top: 40px;
 right: 30px;
 transform: rotate(10deg);
+z-index: -1;
+}
+
+.pic3 {
+position: absolute;
+width: auto;
+max-height: 20%;
+max-width: 20%;
+top: 900px;
+right: 400px;
+transform: rotate(20deg);
 z-index: -1;
 }
