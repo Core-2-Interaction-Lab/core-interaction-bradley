@@ -1,18 +1,108 @@
 ul {
-	padding-top: 15vh;
+	padding-top: 24vh;
 	display: grid;
 	gap: calc(2 * var(--spacing));
-	margin-top: calc(4 * var(--spacing));
-	grid-template-columns: repeat(4, 1fr);
-	grid-template-rows: repeat(auto);
+	/* margin-top: calc(2 * var(--spacing)); */
+	grid-template-columns: repeat(8, 1fr);
+	/* grid-template-rows: repeat(auto); */
 }
 
-li:first-child {
-	grid-column: 2 / span 2;
-  grid-row: 3 / span 2;
+/* not actual rows, but VISUAL rows lol */
+
+/* ROW 1 */
+
+/* goofy */
+li:nth-child(3) {
+grid-column: 1 / span 2;
+grid-row: 1 / span 2;
+}
+/* snow white 1 */
+li:nth-child(4) {
+grid-column: 3 / span 2;
+grid-row: 2.5 / span 2;
+}
+/* snow white 2 */
+li:nth-child(5) {
+grid-column: 3 / span 2;
+grid-row: 2 / span 2;
+}
+/* jesus 1 */
+li:nth-child(33) {
+grid-column: 5 / span 2;
+grid-row: 1 / span 2;
+}
+/* snoopy */
+li:nth-child(13) {
+grid-column: 7 / span 2;
+grid-row: 1 / span 2;
+}
+/* pink smiley button */
+li:nth-child(65) {
+grid-column: 3 / span 1;
+grid-row: 2 / span 2;
 }
 
-li:fourth-child {
-	grid-column: 2 / span 2;
-  grid-row: 3 / span 3;
+/* ROW 2 */
+
+/* dont tread on me */
+li:nth-child(8) {
+grid-column: 1 / span 2;
+grid-row: 3 / span 2;
+}
+
+/* too close */
+li:nth-child(9) {
+grid-column: 7 / span 2;
+grid-row: 3 / span 2;
+}
+/* sun bonnets */
+li:nth-child(37) {
+grid-column: 3 / span 4;
+grid-row: 3 / span 2;
+}
+/* pows */
+li:nth-child(40) {
+grid-column: 3 / span 4;
+grid-row: 4 / span 2;
+}
+
+/* ROW 3 */
+
+/* woodstock eagle */
+li:nth-child(51) {
+grid-column: 5 / span 4;
+grid-row: 5 / span 3;
+}
+/* mickey 1 */
+li:nth-child(2) {
+grid-column: 3 / span 2;
+grid-row: 5 / span 2;
+}
+/* mickey 2 */
+li:nth-child(1) {
+grid-column: 1 / span 2;
+grid-row: 5 / span 2;
+}
+
+/* ROW 4 */
+
+/* keep on bikin */
+li:nth-child(6) {
+grid-column: 1 / span 4;
+grid-row: 7 / span 3;
+}
+/* dont shake me */
+li:nth-child(7) {
+grid-column: 5 / span 4;
+grid-row: 7 / span 3;
+}
+
+
+@media (max-width: 375px) {
+	ul {
+		padding-top: 12vh;
+		gap: calc(1 * var(--spacing));
+		/* grid-template-rows: repeat(auto); */
+	}
+
 }

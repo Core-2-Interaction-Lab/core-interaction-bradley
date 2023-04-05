@@ -1,5 +1,3 @@
-/* Just to make the demo easier to work with. */
-
 :root {
 	--spacing: 1em;
 }
@@ -36,7 +34,7 @@ body {
 #mem { 
 	font-size: 200%;
 	font-weight: normal; 
-	letter-spacing: 14px;
+	letter-spacing: 13.5px;
 	color:rgb(255, 255, 255)
 }
 
@@ -49,6 +47,7 @@ h2 {
 aside { 
 	margin-bottom: calc(4 * var(--spacing));
  }
+
 
 em { 
 	font-style: italic 
@@ -73,6 +72,8 @@ li:fourth-child {
   grid-row: 3 / span 2;
 } */
 
+
+/* sticker info */
 li {
 	position: relative;
 	display: flex;
@@ -102,3 +103,20 @@ li:hover .words {
 }
 
 /* .faded { opacity: 0.333 } */
+
+@media (max-width: 375px) {
+
+	#mom { 
+		/* font-size: 700%;
+		max-width: 100%;
+	}
+	
+	#mem { 
+		font-size: 200%;
+		letter-spacing:7px;
+	}
+
+	#pdesc {
+		font-size: 100%;
+	}
+} */
