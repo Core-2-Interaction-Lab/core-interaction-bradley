@@ -16,7 +16,7 @@ body {
 }
 
 #pdesc {
-	font-size: 130%;
+	font-size: 1.8vw;
 	position: fixed;
 	bottom: 20px;
 	left: 20px;
@@ -48,9 +48,12 @@ aside {
 	margin-bottom: calc(4 * var(--spacing));
  }
 
-
 em { 
-	font-style: italic 
+	font-size: 20px;
+}
+
+#category {
+	font-style: italic;
 }
 
 /* ul {
