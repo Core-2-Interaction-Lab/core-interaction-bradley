@@ -1,5 +1,5 @@
 ul {
-	padding-top: 19vh;
+	padding-top: 16vh;
 	display: grid;
 	gap: calc(1 * var(--spacing));
 	margin-top: calc(2 * var(--spacing));
@@ -371,7 +371,7 @@ grid-row: 53 / span 2;
 
 @media (max-width: 375px) {
 	ul {
-		padding-top: 12vh;
+		padding-top: 12=5vh;
 		gap: calc(1 * var(--spacing));
 		/* grid-template-rows: repeat(auto); */
 	}

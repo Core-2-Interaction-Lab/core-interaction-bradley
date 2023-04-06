@@ -85,3 +85,15 @@ right: 400px;
 transform: rotate(20deg);
 z-index: -1;
 }
+
+@media (max-width: 375px) {
+
+	:root {
+		--spacing: 1em;
+	}
+
+	body {
+		padding-bottom: 20vh;
+	}
+
+}
