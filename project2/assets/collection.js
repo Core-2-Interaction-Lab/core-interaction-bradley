@@ -19,7 +19,7 @@ const renderItems = (collection) => {
 				// const itemTitle = document.createElement('h2') // Make an `h2`
 				// itemTitle.innerHTML = item.title // Put the JSON title inside
 				// listItem.appendChild(itemTitle) // And add it to the `li`!
-
+		listItem.id = item.id;
 
 		// This can get annoying, so we can use “template literals” instead
 		const itemDetails =

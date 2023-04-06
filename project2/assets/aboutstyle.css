@@ -93,7 +93,7 @@ z-index: -1;
 	}
 
 	body {
-		padding-bottom: 20vh;
+		padding-bottom: 50vh;
 	}
 
 	.title {
@@ -116,16 +116,17 @@ z-index: -1;
 	}
 
 	.pic1 {
-		top: 300px;
+		top: 260px;
 		}
 
 	.pic2 {
 		top:180px;
-		min-width: 100px;
+		min-width: 150px;
 	}
 	.pic3 {
-		top:600px;
-		left:50px;
-		min-width: 150px;
+		top:490px;
+		left:40px;
+		min-width: 80px;
+		transform: rotate(-5deg);
 	}
 } 
