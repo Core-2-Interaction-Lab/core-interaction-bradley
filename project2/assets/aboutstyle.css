@@ -38,12 +38,12 @@ body {
 #pdesc {
 	font-size: 210%;
 	position: fixed;
-	bottom: 20px;
+	bottom: 1px;
 	color:rgb(255, 255, 255);
 	width: 600px;
-	padding-top:50px;
+	/* padding-top:50px;
 	border-width:1px;
-	padding-left:3px;
+	padding-left:3px; */
 	padding-bottom:10px;
 }
 
@@ -85,7 +85,7 @@ transform: rotate(20deg);
 z-index: -1;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 414px){
 
 	:root {
 		--spacing: 1em;
@@ -93,6 +93,10 @@ z-index: -1;
 
 	body {
 		padding-bottom: 20vh;
+	}
+
+	.title {
+		position:fixed
 	}
 
 	#mom { 
@@ -106,22 +110,21 @@ z-index: -1;
 	}
 
 	#pdesc {
-		font-size: 85%;
+		font-size: 135%;
+		max-width: 350px;
 	}
 
 	.pic1 {
-		top: 150px;
+		top: 300px;
 		}
 
 	.pic2 {
 		top:180px;
+		min-width: 100px;
 	}
 	.pic3 {
-		top:100px;
+		top:600px;
+		left:50px;
+		min-width: 150px;
 	}
-
-	#pdesc {
-		font-size: 145%;
-		max-width: 345px;
-	}
-}
+} 
