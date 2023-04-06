@@ -93,7 +93,7 @@ z-index: -1;
 	}
 
 	body {
-		padding-bottom: 50vh;
+		padding-bottom: 100vh;
 	}
 
 	.title {
@@ -111,8 +111,9 @@ z-index: -1;
 	}
 
 	#pdesc {
-		font-size: 135%;
+		font-size: 1.2rem;
 		max-width: 350px;
+		padding-bottom: 2vh;
 	}
 
 	.pic1 {
