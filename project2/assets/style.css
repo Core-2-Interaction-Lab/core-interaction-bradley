@@ -5,9 +5,10 @@
 body {
 	font-family: neue-kabel;
 	padding: var(--spacing);
-	padding-bottom: 5vh;
+	padding-bottom: 10vh;
 	color: rgb(255, 255, 255);
 	background-color: black;
+	text-shadow: 1px 1px 20px #000000;
 }
 
 .title {
@@ -52,11 +53,6 @@ em {
 	font-size: 2vw;
 }
 
-/* doesn't work lol */
-#category {
-	font-style: italic;
-}
-
 /* sticker info */
 li {
 	position: relative;
@@ -75,6 +71,8 @@ li:hover img{
 
 .words {
 	position: absolute;
+	top: 5%;
+	left: 5%;
 	font-size: 120%;
 	opacity: 0;
 	text-align: left;
@@ -82,7 +80,15 @@ li:hover img{
 
 li:hover .words {
 	opacity: 1;
-	color:rgb(4, 255, 213);
+	color:rgb(1, 230, 231);
+}
+
+.jsontitle{
+	font-weight:bold;
+}
+
+.year{
+	font-style: italic;
 }
 
 @media (max-width: 414px){

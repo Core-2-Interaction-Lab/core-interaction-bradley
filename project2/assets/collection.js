@@ -25,10 +25,10 @@ const renderItems = (collection) => {
 		const itemDetails =
 			`
 
-			<div class="words"
-			<p><em>${item.title}<em></p>
+			<div class="words">
+			<div id="jsontitle"><p><em>${item.title}<em></p> </div>
 			<p><em>${item.category}<em></p>
-			<p><em>${item.year}</em></p>
+			<div id="year"><p><em>${item.year}</em></p> </div>
 			<p><em>${item.desc}</em></p>
 			</div>
 			
@@ -49,10 +49,10 @@ const renderItems = (collection) => {
 // filter the json file for that exact number
 // create an html string with that number/item's properties (whatever you want to go in the lightbox)
 // insert it into the document
-const creatLightbox = listItem => {
-	// listItem is what you click on
-	// do stuff with listItem variable
-}
+// const creatLightbox = listItem => {
+// 	// listItem is what you click on
+// 	// do stuff with listItem variable
+// }
 
 
 

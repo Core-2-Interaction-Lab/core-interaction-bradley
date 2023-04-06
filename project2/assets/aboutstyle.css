@@ -8,6 +8,7 @@ body {
 	padding-bottom: 15vh;
 	color: rgb(255, 255, 255);
 	background-color: black;
+	text-shadow: 1px 1px 20px #000000;
 }
 
 .title {
