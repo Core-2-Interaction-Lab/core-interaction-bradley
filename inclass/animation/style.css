@@ -1,56 +1,121 @@
-img {
-    max-width: 50%
-}
-
-.svg-wrapper{
-
-}
-
-#logo{
+#lamp {
     position: absolute;
-    max-width: 50%
+    left: 60%;
+    top: 25%;
+    --color-glow: rgba(255,226,8,34%0)
 }
 
-#name{
+#lamp-top {
+    width: 180px;
+    height: 98px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    animation: pulse 5s ease-in-out infinite alternate;
+    z-index:1;
+}
+
+#lamp-base {
+    position: absolute;
+    left: 25%;
+    z-index:-1;
+}
+
+#egg {
     position: relative;
+    left: 63%;
+    top: 180px;
+    width: 126px;
+    height: 180px;
+    z-index:3;
+    animation: pulse 5s ease-in-out infinite alternate;
 }
 
-.container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-  }
-  
-  .item {
-    text-align: center;
-    animation: spinType 2s infinite;
-    animation-timing-function: ease-in-out;
-  }
 
-  @keyframes animationTitle {
-    0% { /* Your CSS for first keyframe goes here */
-    }
-    100% { /* Your CSS for the last keyframe goes here */
-    }
-    }
+#magic8ball {
+    position: relative;
+    background-color: black;
+    left: 20%;
+    top: 285px;
+    border-radius: 50%;
+    width: 120px;
+    height: 122px;
+    animation: pulse 5s ease-in-out infinite alternate;
+}
+
+#napkin {
+    position: relative;
+    left: 15%;
+    top:265px;
+    z-index: -1;
+}
+
+#taperoll {
+      position: relative;
+      left: 45%;
+      top: -210px;
+      z-index:-1;
+      animation: bob 3s ease-in-out infinite alternate;
+
+}
+
+#tape {
+position:relative;
+}
 
 
-      @keyframes spinType {
-        0% {
-            opacity:0;
-        }
-        10% {
-          transform: rotate(0.5turn);
-        }
-        60% {
-          transform: translate(50%, 25%);
-        }
-        90%{
-            transform: opacity(1);
-        }
-        100% {
-          transform: opacity(0);
-        }
-      }
+#tapeinside {
+    position:relative;
+    top:-111px;
+    left:50px;
+    z-index: -2
+}
+
+#bread{
+    animation: bob 5s ease-in-out infinite alternate;
+    z-index:3;
+}
+
+#base {
+    position: relative;
+    left: 43%;
+    top: 12px;
+    transform: skew(3deg, 4deg);
+    
+}
+
+#cap{
+    position:relative;
+    left:44%;
+    top: -148px;
+    
+}
+
+#table{
+	width: 1000px;
+	height: 223px;
+	background: rgb(0, 0, 0);
+	position: absolute;
+	left:1%;
+	top: 65%;
+	transform: skew(-63deg, 6deg);
+	z-index: -2;
+}
+
+
+@keyframes pulse {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.2);
+    }
+}
+
+@keyframes bob {
+    from {
+        transform: translate(0, 0);
+    }
+    to {
+        transform: translate(0, -10px);
+    }
+}
