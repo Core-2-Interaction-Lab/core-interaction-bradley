@@ -5,8 +5,8 @@
 
 body {
 	padding: var(--spacing);
-	background-color: rgb(255, 255, 255);
-	color: rgb(0, 0, 0);
+	background-color: rgb(0, 0, 0);
+	color: rgb(255, 255, 255);
 	min-height: 200vh;
 	font: 30px/1;
 	font-family: Arial, Helvetica, sans-serif;
@@ -15,9 +15,15 @@ body {
 #narrative {
 	font-size: 150%;
 	position: absolute;
-	left: 50%;
-	top: 50%;
-	transform: translate(-50%, -50%);
 	text-align: left;
+	max-width: 1350px;
   }
+
+#myChart {
+position: absolute;
+left: 50%;
+transform: translateX(-50%);
+width: 130vh !important;
+height: 70vh !important;
+}
   
