@@ -1,7 +1,3 @@
-// HOW TO FETCH DATA ACROSS THE WEB
-// const url = 'https://data.cityofnewyork.us/resource/vfnx-vebw.json?$limit=50000';
-// noise data link = https://data.cityofnewyork.us/resource/be8n-q3nj.json?$limit=50000
-
 fetch('assets/year.json')
   .then(response => response.json())
 //   .then(console.log(response))
@@ -14,7 +10,7 @@ const playWithData = data => {
     
 
     console.log(data);
-    // how many instances were QUAA-ING?
+    // how many per month?
     const data1 = parseInt(data.year[0].number.replace(',', '')); 
     const data2 = parseInt(data.year[1].number.replace(',', ''));
     const data3 = parseInt(data.year[2].number.replace(',', ''));
@@ -27,9 +23,6 @@ const playWithData = data => {
     const data10 = parseInt(data.year[9].number.replace(',', ''));
     const data11 = parseInt(data.year[10].number.replace(',', ''));
     const data12 = parseInt(data.year[11].number.replace(',', ''));
-
-
-    
     
 
     const dataLabels = ['data1', 'data2','data3','data4','data5','data6','data7','data8','data9','data10','data11','data12'];
@@ -44,7 +37,7 @@ const playWithData = data => {
           datasets: [
             {
               label: '# of Noise Complaints',
-              data: [data1, data2,data3,data4,data5,data6,data7,data8,data9,data10,data11,data12,],
+              data: [data1,data2,data3,data4,data5,data6,data7,data8,data9,data10,data11,data12,],
               borderColor: '#000000',
               backgroundColor: ['rgb(255, 255, 255)'],
               borderWidth: 3
