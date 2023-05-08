@@ -16,11 +16,6 @@ body {
 	margin: 0;
 }
 
-.wave-container {
-    padding-top: 10px;
-	padding-bottom: 10px;
-}
-
 #narrative {
 	font-size: 150%;
 	position: relative;
@@ -36,8 +31,7 @@ ul {
   }
 
 li {
-	padding: 8px;
-	font-weight: 400;
+	padding: 4px;
 	transition: font-size 0.5s ease-in-out;
 }
   
@@ -56,6 +50,7 @@ font-size: var(--size-3);
   
 li.item-4 {
 font-size: var(--size-4);
+font-weight: lighter;
 }
   
 li:hover {

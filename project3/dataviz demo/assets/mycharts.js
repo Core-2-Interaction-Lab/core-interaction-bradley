@@ -42,7 +42,7 @@ function createPieChart(labels, data) {
     const ctx = canvas.getContext('2d');
 
     new Chart(ctx, {
-        type: 'bar',
+        type: 'line',
         data: {
             labels: labels,
             datasets: [{

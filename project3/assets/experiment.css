@@ -7,7 +7,6 @@ svg {
   height: auto;
 }
 
-
 path {
   animation: wave 1s linear infinite;
 }
@@ -20,6 +19,7 @@ path {
     transform: translateX(0%);
   }
 }
+
 .wave-container {
   display: block;
   width: 100%;

@@ -4,13 +4,9 @@ svg {
 	height: auto;
 }
 
-path {
-	animation: wave 1s linear infinite;
-}
-
 @keyframes wave {
 	0% {
-		transform: translateX(-50%);
+		transform: translateX(-8%);
 	}
 
 	100% {
@@ -29,5 +25,5 @@ path {
 }
 
 .wave-container path {
-	animation: wave 3s linear infinite;
+	animation: wave 1.5s linear infinite;
 }

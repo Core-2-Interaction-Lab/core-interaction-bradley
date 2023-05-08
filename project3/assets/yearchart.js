@@ -1,54 +1,65 @@
 // HOW TO FETCH DATA ACROSS THE WEB
-const url = 'https://data.cityofnewyork.us/resource/vfnx-vebw.json?$limit=50000';
+// const url = 'https://data.cityofnewyork.us/resource/vfnx-vebw.json?$limit=50000';
 // noise data link = https://data.cityofnewyork.us/resource/be8n-q3nj.json?$limit=50000
 
-fetch(url)
+fetch('assets/year.json')
   .then(response => response.json())
-	// pass the data to the function!
-	.then(data => playWithData(data))
+//   .then(console.log(response))
+    // pass the data to the function!
+    .then(data => playWithData(data))
 
 
 // QUERY, MANIPULATE, VISUALIZE THE DATASET
 const playWithData = data => {
+    
 
-	console.log(data);
-	// how many instances were QUAA-ING?
-	const quaas = data.filter(item => item.quaas == true).length;
-	const kuks = data.filter(item => item.kuks == true).length;
-	const moans = data.filter(item => item.moans == true).length;
-	const running = data.filter(item => item.running == true).length;
-	const eating = data.filter(item => item.eating == true).length;
-	const foraging = data.filter(item => item.foraging == true).length;
-	const chasing = data.filter(item => item.chasing == true).length;
-	const climbing = data.filter(item => item.climbing == true).length;
+    console.log(data);
+    // how many instances were QUAA-ING?
+    const data1 = parseInt(data.year[0].number.replace(',', '')); 
+    const data2 = parseInt(data.year[1].number.replace(',', ''));
+    const data3 = parseInt(data.year[2].number.replace(',', ''));
+    const data4 = parseInt(data.year[3].number.replace(',', ''));
+    const data5 = parseInt(data.year[4].number.replace(',', ''));
+    const data6 = parseInt(data.year[5].number.replace(',', ''));
+    const data7 = parseInt(data.year[6].number.replace(',', ''));
+    const data8 = parseInt(data.year[7].number.replace(',', ''));
+    const data9 = parseInt(data.year[8].number.replace(',', ''));
+    const data10 = parseInt(data.year[9].number.replace(',', ''));
+    const data11 = parseInt(data.year[10].number.replace(',', ''));
+    const data12 = parseInt(data.year[11].number.replace(',', ''));
 
-	const dataLabels = ['quaas', 'kuks', 'moans', 'running', 'eating', 'foraging', 'chasing', 'climbing'];
-	const dataValues = [quaas, kuks, moans, running, eating, foraging, chasing, climbing];
+
+    
+    
+
+    const dataLabels = ['data1', 'data2','data3','data4','data5','data6','data7','data8','data9','data10','data11','data12'];
+    const dataValues = [data1, data2,data3,data4,data5,data6,data7,data8,data9,data10,data11,data12,];
 
 
-	const ctx = document.getElementById('myChart');
-
-	new Chart(ctx, {
-	  type: 'line',
-	  data: {
-		labels: ['JAN', 'FEB', 'MAR', 'APR', 'MAY', 'JUN', 'JUL', 'AUG', 'SEP', 'OCT', 'NOV', 'DEC'],
-		datasets: [
-			{
-				label: '# of Noise Complaints',
-				data: [quaas, kuks, moans, running, eating, foraging, chasing, climbing],
-				borderColor: '#000000',
-				backgroundColor: ['rgb(255, 255, 255)'],
-				borderWidth: 3
-			}
-		]
-	  },
-	  options: {
-		scales: {
-		  y: {
-			beginAtZero: true
-		  }
-		}
-	  }
-	});
+    const ctx = document.getElementById('myChart');
+    new Chart(ctx, {
+        type: 'line',
+        data: {
+          labels: ['JAN', 'FEB', 'MAR', 'APR', 'MAY', 'JUN', 'JUL', 'AUG', 'SEP', 'OCT', 'NOV', 'DEC'],
+          datasets: [
+            {
+              label: '# of Noise Complaints',
+              data: [data1, data2,data3,data4,data5,data6,data7,data8,data9,data10,data11,data12,],
+              borderColor: '#000000',
+              backgroundColor: ['rgb(255, 255, 255)'],
+              borderWidth: 3
+            }
+          ]
+        },
+        options: {
+          scales: {
+            y: {
+              beginAtZero: true,
+              suggestedMax: 50000 // set the maximum value for the y-axis scale
+            }
+          }
+        }
+      });
+      
 
 }

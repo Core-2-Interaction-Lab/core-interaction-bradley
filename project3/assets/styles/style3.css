@@ -1,6 +1,6 @@
 :root {
-	--size-1: 110px;
-	--size-2: 90px;
+	--size-1: 115px;
+	--size-2: 95px;
 	--size-3: 50px;
 	--size-4: 20px;
 	--spacing: 2em;
@@ -31,8 +31,7 @@
   }
   
   li {
-	padding: 8px;
-	font-weight: 400;
+	padding: 4px;
 	transition: font-size 0.5s ease-in-out;
   }
   
@@ -51,9 +50,10 @@
   
   li.item-4 {
 	font-size: var(--size-4);
+	font-weight: lighter;
   }
   
   li:hover {
-	font-size: calc(100% + 5%);
+	font-size: calc(var(--size-4) * 1.5);
   }
   
