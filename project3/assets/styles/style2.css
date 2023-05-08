@@ -16,6 +16,12 @@ body {
 	margin: 0;
 }
 
+.wave-container {
+    padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+
 #narrative {
 	font-size: 150%;
 	position: relative;

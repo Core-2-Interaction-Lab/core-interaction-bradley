@@ -1,4 +1,26 @@
+html{
+  background-color: black;
+}
 svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+
+path {
+  animation: wave 1s linear infinite;
+}
+
+@keyframes wave {
+  0% {
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+.wave-container {
   display: block;
   width: 100%;
   height: auto;
@@ -6,8 +28,8 @@ svg {
   padding: 0;
 }
 
-path {
-  animation: wave 1s linear infinite;
+.wave-container path {
+  animation: wave 3s linear infinite;
 }
 
 @keyframes wave {

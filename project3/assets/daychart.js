@@ -11,6 +11,18 @@ fetch(url)
 // QUERY, MANIPULATE, VISUALIZE THE DATASET
 const playWithData = data => {
 
+    // 	// get all of the dates
+	// // we reformat the date field within the dataset so that the Date() method can read it
+	// const created_date = data.map(item => {
+	// 	const date = (item.created_date).slice(0,10);
+	// 	const hour = (item.created_date)).slice(12,13);
+    //     const minutes = (item.created_date)).slice(15,16;
+    //     const seconds = (item.created_date)).slice(18,19);
+	// 	const formattedDate = `${date}/${hour}:${minutes}:{seconds}`;
+	// 	const date = new Date(formattedDate);
+	// 	return date;
+	// });
+
 	console.log(data);
 	// how many instances were QUAA-ING?
 	const quaas = data.filter(item => item.quaas == true).length;
@@ -31,10 +43,10 @@ const playWithData = data => {
 	new Chart(ctx, {
 	  type: 'bar',
 	  data: {
-		labels: ['quaas', 'kuks', 'moans', 'running', 'eating', 'foraging', 'chasing', 'climbing'],
+		labels: ['12', '1', '2', '3', '4', '5', '6', '7', '8','9','10','11', '12','1', '2', '3', '4', '5', '6', '7', '8','9','10','11',],
 		datasets: [
 			{
-				label: '# of Squirrels',
+				label: '# of Complaints',
 				data: [quaas, kuks, moans, running, eating, foraging, chasing, climbing],
 				borderColor: '#000000',
 				backgroundColor: ['rgb(255, 255, 255)'],

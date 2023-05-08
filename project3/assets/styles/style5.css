@@ -16,48 +16,21 @@
 	margin: 0;
   }
   
-  .words {
+  #narrative {
 	font-size: 150%;
 	position: relative;
 	text-align: left;
 	max-width: 1350px;
 	margin-bottom: 20px;
   }
-  
-  ul {
-	list-style: none;
-	padding: 0;
-	margin: 0;
-  }
-  
-  li {
-	padding: 8px;
-	font-weight: 400;
-	transition: font-size 0.2s ease-in-out;
-  }
-  
-  li.item-1 {
-	font-size: var(--size-1);
-	font-weight: bold;
-  }
-  
-  li.item-2 {
-	font-size: var(--size-2);
-  }
-  
-  li.item-3 {
-	font-size: var(--size-3);
-  }
-  
-  li.item-4 {
-	font-size: var(--size-4);
-  }
-  
-  li:hover {
-	font-size: calc(100% + 5%);
-  }
+
+  .wave-container {
+    padding-top: 10px;
+	padding-bottom: 10px;
+}
   
   #myChart {
+	padding-top: 20px;
 	position: absolute;
 	left: 50%;
 	transform: translateX(-50%);

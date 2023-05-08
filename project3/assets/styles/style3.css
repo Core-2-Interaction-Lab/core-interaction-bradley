@@ -1,8 +1,8 @@
 :root {
-	--size-1: 80px;
-	--size-2: 50px;
-	--size-3: 30px;
-	--size-4: 16px;
+	--size-1: 110px;
+	--size-2: 90px;
+	--size-3: 50px;
+	--size-4: 20px;
 	--spacing: 2em;
   }
   
@@ -33,7 +33,7 @@
   li {
 	padding: 8px;
 	font-weight: 400;
-	transition: font-size 0.2s ease-in-out;
+	transition: font-size 0.5s ease-in-out;
   }
   
   li.item-1 {
@@ -55,13 +55,5 @@
   
   li:hover {
 	font-size: calc(100% + 5%);
-  }
-  
-  #myChart {
-	position: absolute;
-	left: 50%;
-	transform: translateX(-50%);
-	width: 130vh !important;
-	height: 70vh !important;
   }
   

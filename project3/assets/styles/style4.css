@@ -20,11 +20,17 @@ body {
 	margin-bottom: 20px;
 }
 
+.wave-container {
+    padding-top: 10px;
+	padding-bottom: 10px;
+}
+
 .grid-container {
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
 	grid-template-rows: repeat(2, 1fr);
 	gap: 10px;
+	padding-top:10px;
 }
 
 .box {
