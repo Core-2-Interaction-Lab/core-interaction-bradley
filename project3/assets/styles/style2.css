@@ -74,11 +74,3 @@ li.item-3:hover {
 li.item-4:hover {
 	font-size: calc(var(--size-4) + (var(--size-1) - var(--size-4)) * ((100% - var(--size-4)) / (var(--size-1) - var(--size-4))));
 }
-
-#myChart {
-	position: absolute;
-	left: 50%;
-	transform: translateX(-50%);
-	width: 130vh !important;
-	height: 70vh !important;
-}
