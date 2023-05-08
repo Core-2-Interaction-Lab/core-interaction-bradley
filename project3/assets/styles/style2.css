@@ -21,7 +21,6 @@ body {
 	padding-bottom: 10px;
 }
 
-
 #narrative {
 	font-size: 150%;
 	position: relative;
@@ -34,43 +33,32 @@ ul {
 	list-style: none;
 	padding: 0;
 	margin: 0;
-}
+  }
 
 li {
 	padding: 8px;
 	font-weight: 400;
-	transition: font-size 0.2s ease-in-out;
+	transition: font-size 0.5s ease-in-out;
 }
-
+  
 li.item-1 {
-	font-size: var(--size-1);
-	font-weight: bold;
+font-size: var(--size-1);
+font-weight: bold;
 }
-
+  
 li.item-2 {
-	font-size: var(--size-2);
+font-size: var(--size-2);
 }
-
+  
 li.item-3 {
-	font-size: var(--size-3);
+font-size: var(--size-3);
 }
-
+  
 li.item-4 {
-	font-size: var(--size-4);
+font-size: var(--size-4);
 }
-
-li.item-1:hover {
-	font-size: calc(var(--size-1) + (var(--size-1) - var(--size-4)) * ((100% - var(--size-1)) / (var(--size-1) - var(--size-4))));
+  
+li:hover {
+font-size: calc(150%) !important;
 }
-
-li.item-2:hover {
-	font-size: calc(var(--size-2) + (var(--size-1) - var(--size-4)) * ((100% - var(--size-2)) / (var(--size-1) - var(--size-4))));
-}
-
-li.item-3:hover {
-	font-size: calc(var(--size-3) + (var(--size-1) - var(--size-4)) * ((100% - var(--size-3)) / (var(--size-1) - var(--size-4))));
-}
-
-li.item-4:hover {
-	font-size: calc(var(--size-4) + (var(--size-1) - var(--size-4)) * ((100% - var(--size-4)) / (var(--size-1) - var(--size-4))));
-}
+  
