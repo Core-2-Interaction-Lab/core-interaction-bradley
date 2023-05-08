@@ -1,5 +1,5 @@
 :root {
-	--size-1: 115px;
+	--size-1: 110px;
 	--size-2: 95px;
 	--size-3: 50px;
 	--size-4: 20px;
@@ -38,22 +38,39 @@
   li.item-1 {
 	font-size: var(--size-1);
 	font-weight: bold;
-  }
-  
-  li.item-2 {
+	}
+	
+	li.item-1:hover {
+	font-size: calc(var(--size-1) * 1.1);
+	}
+	
+	  
+	li.item-2 {
 	font-size: var(--size-2);
-  }
-  
-  li.item-3 {
+	}
+	  
+	li.item-2:hover {
+	font-size: calc(var(--size-2) * 1.2);
+	}
+	
+	li.item-3 {
 	font-size: var(--size-3);
-  }
-  
-  li.item-4 {
+	}
+	
+	li.item-3:hover {
+	font-size: calc(var(--size-3) * 1.5);
+	}
+	  
+	li.item-4 {
 	font-size: var(--size-4);
 	font-weight: lighter;
-  }
-  
-  li:hover {
+	}
+	
+	li.item-4:hover {
 	font-size: calc(var(--size-4) * 1.5);
-  }
+	}
+	  
+	li:hover {
+	font-size: calc(var(--size-4) * 1.5);
+	  }
   
