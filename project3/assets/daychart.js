@@ -46,7 +46,7 @@ const playWithData = data => {
 		labels: ['12', '1', '2', '3', '4', '5', '6', '7', '8','9','10','11', '12','1', '2', '3', '4', '5', '6', '7', '8','9','10','11',],
 		datasets: [
 			{
-				label: '# of Complaints',
+				label: 'Complaints by Hour',
 				data: [quaas, kuks, moans, running, eating, foraging, chasing, climbing],
 				borderColor: '#000000',
 				backgroundColor: ['rgb(255, 255, 255)'],
@@ -64,4 +64,3 @@ const playWithData = data => {
 	});
 
 }
-
