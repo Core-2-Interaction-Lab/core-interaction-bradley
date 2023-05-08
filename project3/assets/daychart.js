@@ -1,5 +1,5 @@
 // HOW TO FETCH DATA ACROSS THE WEB
-const url = 'https://data.cityofnewyork.us/resource/be8n-q3nj.json?$limit=50000';
+const url = 'https://data.cityofnewyork.us/resource/vfnx-vebw.json?$limit=50000';
 // noise data link = https://data.cityofnewyork.us/resource/be8n-q3nj.json?$limit=50000
 
 fetch(url)
@@ -11,20 +11,6 @@ fetch(url)
 // QUERY, MANIPULATE, VISUALIZE THE DATASET
 const playWithData = data => {
 
-    	// get all of the dates
-	// we reformat the date field within the dataset so that the Date() method can read it
-	const created_date = data.map(item => {
-		const date = (item.created_date).slice(0,10);
-		const hour = (item.created_date)).slice(12,13);
-        const minutes = (item.created_date)).slice(15,16;
-        const seconds = (item.created_date)).slice(18,19);
-		const formattedDate = `${date}/${hour}:${minutes}:{seconds}`;
-		const date = new Date(formattedDate);
-		return date;
-	});
-    
-
-    // different sections
 	console.log(data);
 	// how many instances were QUAA-ING?
 	const quaas = data.filter(item => item.quaas == true).length;

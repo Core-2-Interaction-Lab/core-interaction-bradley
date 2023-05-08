@@ -5,38 +5,43 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link href="assets/styles/reset.css" rel="stylesheet">
-		<link href="assets/styles/style.css" rel="stylesheet">
-		<script defer src="assets/data.js"></script>
-		<script defer src="assets/blackgrain.js"></script>
+		<link href="assets/styles/style5.css" rel="stylesheet">
+		<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+		<script defer src="assets/yearchart.js"></script>
+		<script defer src="assets/whitegrain.js"></script>
 	</head>
 	<body>
+		
+        <p id="narrative"> The tenants last summer were also VERY noisy. I guess that’s just when all you young people move into the city.
+            <br><br> <a href="page6.html">I just miss the quiet winters...</a></p>
 
-		<h1 id="title"><a href="page1.html">WHAT'S WITH THE NOISE ?</a></h1>
 		<div class="noise">
 		  <canvas></canvas>
 		</div>
 
+		<canvas id="myChart"></canvas>
+
 		<style>
 			a:link {
-			  color: rgb(255, 255, 255);
+			  color: rgb(0, 0, 0);
 			  background-color: transparent;
 			  text-decoration: none;
 			}
 			
 			a:visited {
-			  color: rgb(255, 255, 255);
+			  color: rgb(0, 0, 0);
 			  background-color: transparent;
 			  text-decoration: none;
 			}
 			
 			a:hover {
-			  color: rgb(79, 79, 79);
+			  color: rgb(130, 130, 130);
 			  background-color: transparent;
 			  text-decoration: none;
 			}
 			
 			a:active {
-			  color: rgb(255, 255, 255);
+			  color: rgb(0, 0, 0);
 			  background-color: transparent;
 			  text-decoration: none;
 			}
