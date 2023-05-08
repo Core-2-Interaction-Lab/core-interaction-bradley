@@ -66,3 +66,10 @@ body {
 	font-size: 14px;
 	width: max-content;
 }
+
+@media (max-width: 414px){
+	#narrative{
+	font-size: 15px;
+	}
+
+}

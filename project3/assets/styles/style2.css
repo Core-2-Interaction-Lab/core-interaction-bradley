@@ -73,3 +73,27 @@ font-size: calc(var(--size-4) * 1.5);
 li:hover {
 font-size: calc(var(--size-4) * 1.5);
   }
+
+
+  @media (max-width: 414px){
+	#narrative{
+	font-size: 15px;
+	}
+	  
+	:root {
+		--size-1: 25px;
+		--size-2: 23px;
+		--size-3: 18px;
+		--size-4: 15px;
+		--spacing: 2em;
+	}
+
+	li {
+	padding: 7px;
+	}
+
+	li.item-1:hover {
+	font-size: calc(var(--size-1) * 1.5);
+	}
+
+ }

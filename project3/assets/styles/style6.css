@@ -37,3 +37,15 @@ body {
 	width: 130vh !important;
 	height: 70vh !important;
 }
+
+
+@media (max-width: 414px){
+	#narrative{
+	font-size: 17px;
+	}
+
+	#myChart {
+		width: 65vh !important;
+		height: 35vh !important;
+	}
+}

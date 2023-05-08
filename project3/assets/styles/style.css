@@ -27,7 +27,6 @@ body {
 }
 
 #title {
-  font-size: 700%;
   position: fixed;
   left: 50%;
   top: 50%;
@@ -39,6 +38,11 @@ body {
   letter-spacing: -0.10em;
 }
 
-@media {
-  font-size: 150px;
+@media (max-width: 414px){
+
+  #title{
+  font-size: 100px;
+  line-height: 70px;
+  }
+
 }
