@@ -23,6 +23,14 @@
 	max-width: 1350px;
 	margin-bottom: 20px;
   }
+
+  #infotitle {
+	padding-top: 15px;
+	padding-left: 11px;
+	font-weight: bold;
+	color: rgb(144, 143, 143);
+	letter-spacing: -1px;
+  }
   
   ul {
 	list-style: none;
@@ -79,7 +87,12 @@
 		#narrative{
 		font-size: 15px;
 		}
-		  
+		 
+		#infotitle {
+			padding-left: 10px;
+			padding-bottom: 10px;
+			  }
+		
 		:root {
 			--size-1: 26px;
 			--size-2: 25px;

@@ -22,7 +22,7 @@ const playWithData = data => {
     const data10 = parseInt(data.hourofday[9].number.replace(',', ''));
     const data11 = parseInt(data.hourofday[10].number.replace(',', ''));
     const data12 = parseInt(data.hourofday[11].number.replace(',', ''));
-	const data13 = parseInt(data.hourofday[12].number.replace(',', '')); 
+	  const data13 = parseInt(data.hourofday[12].number.replace(',', '')); 
     const data14 = parseInt(data.hourofday[13].number.replace(',', ''));
     const data15 = parseInt(data.hourofday[14].number.replace(',', ''));
     const data16 = parseInt(data.hourofday[15].number.replace(',', ''));
@@ -35,7 +35,7 @@ const playWithData = data => {
     const data23 = parseInt(data.hourofday[22].number.replace(',', ''));
     const data24 = parseInt(data.hourofday[23].number.replace(',', ''));
 
-    const dataLabels = ['data1','data2','data3','data4','data5','data6','data7','data8','data9','data10','data11','data12''data13','data14','data15','data16','data17','data18','data19','data20','data21','data22','data23','data24'];
+    const dataLabels = ['data1','data2','data3','data4','data5','data6','data7','data8','data9','data10','data11','data12','data13','data14','data15','data16','data17','data18','data19','data20','data21','data22','data23','data24'];
     const dataValues = [data1,data2,data3,data4,data5,data6,data7,data8,data9,data10,data11,data12,data13.data14,data15,data16,data17,data18,data19,data20,data21,data22,data23,data24];
 
 

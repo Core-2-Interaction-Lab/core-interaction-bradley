@@ -35,7 +35,7 @@ li:hover img{
 
 li:hover .words {
 	opacity: 1;
-	color:rgb(255, 255, 255);
+	color: rgb(209, 232, 2);
 }
 
 aside { 
@@ -113,8 +113,64 @@ grid-row: 4 / span 2;
 @media (max-width: 375px) {
 	ul {
 		padding-top: 12=5vh;
-		gap: calc(1 * var(--spacing));
+		gap: calc(.2 * var(--spacing));
 		grid-template-rows: repeat(auto);
 	}
+
+	/* RESIDENTIAL */
+li:nth-child(1) {
+	grid-row: span 1;
+	}
+	
+	/* STREET */
+	li:nth-child(2) {
+	grid-row: span 1;
+	}
+	
+	/* NOISE */
+	li:nth-child(3) {
+	grid-row: span 1;
+	}
+	
+	/* ROW 2 */
+	
+	/* COMMERCIAL */
+	li:nth-child(4) {
+	grid-column: span 4;
+	grid-row: span 1;
+	} 
+	
+	/* VEHICLE */
+	li:nth-child(5) {
+	grid-column: span 4;
+	grid-row: span 1;
+	} 
+	
+	/* PARK */
+	li:nth-child(6) {
+	grid-column: span 4;
+	grid-row: span 1;
+	} 
+	
+	/* ROW 3 */
+	li:nth-child(7) {
+	grid-column: span 4;
+	grid-row: span 1;
+	} 
+	
+	li:nth-child(8) {
+	grid-column: span 4;
+	grid-row: span 1;
+	} 
+	
+	li:nth-child(9) {
+	grid-column: span 4;
+	grid-row: span 1;
+	} 
+	
+	li:nth-child(10) {
+	grid-column: span 4;
+	grid-row: span 1;
+	} 
 
 }

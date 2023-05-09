@@ -39,7 +39,8 @@ const playWithData = data => {
               label: '# of Noise Complaints',
               data: [data1,data2,data3,data4,data5,data6,data7,data8,data9,data10,data11,data12,],
               borderColor: '#000000',
-              backgroundColor: ['rgb(255, 255, 255)'],
+              backgroundColor: ['rgb(229, 255, 0)'],
+              borderColor: ['rgb(0, 0, 0)'],
               borderWidth: 3
             }
           ]

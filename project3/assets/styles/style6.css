@@ -24,6 +24,14 @@ body {
 	margin-bottom: 20px;
 }
 
+#infotitle {
+	padding-top: 15px;
+	padding-left: 11px;
+	font-weight: bold;
+	color: rgb(144, 143, 143);
+	letter-spacing: -1px;
+  }
+
 .wave-container {
     padding-top: 10px;
 	padding-bottom: 10px;
@@ -48,4 +56,8 @@ body {
 		width: 65vh !important;
 		height: 35vh !important;
 	}
+
+	#infotitle {
+	padding-left: 0px;
+	  }
 }

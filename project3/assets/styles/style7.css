@@ -25,6 +25,13 @@ body {
 	text-align: left;
   }
   
+  #infotitle {
+	padding-top: 15px;
+	padding-left: 11px;
+	font-weight: bold;
+	color: rgb(144, 143, 143);
+  }
+
 #subject {
 	color: rgb(144, 143, 143);
 }
