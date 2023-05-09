@@ -80,6 +80,7 @@
 	  
 	li:hover {
 	font-size: calc(var(--size-4) * 1.5);
+	color:rgb(229, 255, 0);
 	  }
   
 

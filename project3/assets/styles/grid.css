@@ -117,6 +117,10 @@ grid-row: 4 / span 2;
 		grid-template-rows: repeat(auto);
 	}
 
+	em { 
+		font-size: 5vw;
+	}
+
 	/* RESIDENTIAL */
 li:nth-child(1) {
 	grid-row: span 1;
