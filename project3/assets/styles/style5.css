@@ -10,7 +10,7 @@
 	padding: var(--spacing);
 	background-color: rgb(255, 255, 255);
 	color: rgb(0, 0, 0);
-	min-height: 200vh;
+	min-height: 110vh;
 	font: 30px/1;
 	font-family: Arial, Helvetica, sans-serif;
 	margin: 0;
@@ -29,7 +29,6 @@
 	padding-left: 11px;
 	font-weight: bold;
 	color: rgb(144, 143, 143);
-	letter-spacing: -1px;
   }
 
   .wave-container {
@@ -38,7 +37,7 @@
 }
   
   #myChart {
-	padding-top: 20px;
+	padding-top: 30px;
 	position: absolute;
 	left: 50%;
 	transform: translateX(-50%);
