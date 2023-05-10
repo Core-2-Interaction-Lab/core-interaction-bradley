@@ -11,7 +11,7 @@ const playWithData = data => {
     console.log(data);
     // how many per hour?
     const data1 = parseInt(data.hourofday[0].number.replace(',', '')); 
-    const data2 = parseInt(data.hourofday[1].number.replace(',', ''));s
+    const data2 = parseInt(data.hourofday[1].number.replace(',', ''));
     const data3 = parseInt(data.hourofday[2].number.replace(',', ''));
     const data4 = parseInt(data.hourofday[3].number.replace(',', ''));
     const data5 = parseInt(data.hourofday[4].number.replace(',', ''));
